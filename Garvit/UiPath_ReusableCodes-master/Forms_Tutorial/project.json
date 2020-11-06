@@ -1,0 +1,42 @@
+{
+  "name": "Uipath_Forms_tutorial",
+  "description": "Trying to place all forms tutorials here",
+  "main": "SendInputToForm.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.8.3-beta.864510]",
+    "UiPath.Form.Activities": "[1.0.1]",
+    "UiPath.FormActivityLibrary": "[1.0.2]",
+    "UiPath.FormActivityLibrary.Contracts": "[1.0.1]",
+    "UiPath.Mail.Activities": "[1.8.3-beta.865074]",
+    "UiPath.Platform": "[20.4.0-beta.851122]",
+    "UiPath.System.Activities": "[20.4.0-beta.864462]",
+    "UiPath.UIAutomation.Activities": "[20.4.0-beta.853586]",
+    "UiPath.WebAPI.Activities": "[1.4.5-beta.864518]",
+    "UiPath.Word.Activities": "[1.5.0-beta.746347]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.12.0.61",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
